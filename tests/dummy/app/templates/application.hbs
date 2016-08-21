@@ -1,3 +1,6 @@
 <h2 id="title">Welcome to Ember</h2>
+<input value="hello world" id="myText" oninput={{action 'changeInput'}}/>
+<br/> <pre>truncate-text 'hello world' limit=10 omission='....'</pre>
+{{truncate-text myTextToTruncate limit=10 omission='....' oninput='changeInput'}}
 
 {{outlet}}
