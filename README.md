@@ -4,8 +4,7 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
+* `npm install --save-dev ember-truncate-text`
 * `bower install`
 
 ## Running
@@ -24,3 +23,7 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+
+## Use
+
+* `{{truncate-text myTextToTruncate limit=10 omission='....'}}`
