@@ -3,7 +3,6 @@
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
-
 * `npm install --save-dev ember-truncate-text`
 * `bower install`
 
